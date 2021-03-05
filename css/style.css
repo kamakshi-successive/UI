@@ -3,10 +3,12 @@
   margin: 0 auto;
   max-width: 100%;
   padding: 0 2%;
-  /* border: 1px solid red; */
+  max-width: 1280px;
+  /* border:1px solid red; */
 }
 
 .header {
+  margin-top: 35px;
     /* border:1px solid green; */
 }
 
@@ -26,31 +28,29 @@ margin:4% 12%
 }
 
 .contact-button{
-  width: 50%;
-  height: 10%;
+  width: 116px;
+  height: 40px;
   font-family: Poppins;
   font-size: 1.2rem;
-  font-weight: 400;
   border: 1px solid black;
-  background-color: white;
-  margin-top:23%;
-  margin-left: 10%;
-  padding-left: 5%;
-  padding-top: 1%;
   border-radius: 10px;
 }
-
-.left .right{
+.left-section{
   width: 50%;
-}
-.right1{margin-left: 40%;}
-
+} 
+.right-section{
+  display: flex;
+  margin-top: 3%;
+  margin-right: 10%;
+  justify-content: flex-end;
+  width: 50%;
+} 
 .menu {
-  width: 15%;
+  width: 35px;
   height: 3px;
+margin-left: 20px;
+  margin-top: 7px;
   background-color: black;
-  margin-left: 346px;
-  margin-top: -12px;
 }
 
 /* Section1 Part */
@@ -421,7 +421,6 @@ line-height: 46px;
   margin-right: auto;
   margin-top: 40px;
 }
-
 
 /* section5 */
 
