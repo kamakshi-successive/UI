@@ -373,13 +373,13 @@ body {
   .heading{
     color: #000000;
     font-family: Poppins;
-    font-size: 31px;
+    font-size: 27px;
     font-weight: 400;
     margin: auto;
   }
   .main-heading{
     font-family: Poppins;
-    font-size: 46px;
+    font-size: 39px;
     margin: auto;
   }
 
@@ -387,7 +387,7 @@ body {
     opacity: 0.8;
     color: #000000;
     font-family: Poppins;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 400;
 }
 

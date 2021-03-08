@@ -25,11 +25,12 @@
   margin-left: 38px;
 }
  /* Section1 */
-.card {
-  width: 480px; 
+.card {    
+  width: 480px;
   height: 400px;
   margin: auto;
   background-color: #ffffff;
+  margin: 63px;
   /* border: 1px solid saddlebrown; */
 }
 .peximg{
@@ -179,20 +180,44 @@ font-weight: 400;
 margin:auto;
 }
 .flex-combination{
-  display: flex;
+   display: flex;
   justify-content: space-between;
-}
+} 
 .card-section{      
   width: 180px;
   height: 182px;
   box-shadow: 2px 2px 100px rgb(201 201 201 / 30%);
   border-radius: 5px;
   background-color: #ffffff;
-  /* border: 1px solid green; */
+  padding-top: 47px;
+  padding-left: 53px;
+  padding-right: 56px;
+  margin-top:60px;
 }
-.short-line{
-  margin-left: 3rem;
-    margin-right: 1rem
+.slider1{
+  position: static;
+}
+.slider1 .owl-nav{
+  position: absolute;
+  top:18px;
+  right: 78px;
+}
+.section4combo{
+  position: relative;
+}
+.vedio-section .owl-stage-outer{
+  background-color: black;
+  margin-right:100px;
+  padding:43px;
+}
+.d-flex .owl-nav {
+  right: 0;
+  position: absolute;
+  top: 0;
+  /* margin-bottom: 1px; */
+}
+.vedio-section .owl-dots{
+margin-right: 80px;
 }
 .arrow-button{
   font-size: 31px;
@@ -206,10 +231,15 @@ margin:auto;
   margin: 25px;
   margin-left: 69px
 }
+.slider1 .owl-nav.disabled {display: block !important;}
 /*  section5*/
 .img-align{
-  margin-left: 3rem;
-  margin-top: 3rem;
+  height:45px;
+  border-radius: 9px;
+}
+.img-alig{
+  height: 45px;
+  margin-top: 47px;
   border-radius: 9px;
 }
 .color1{
@@ -273,29 +303,23 @@ textarea {
 }
 /* section7 */
 .left-card {
-  margin: auto;
+  width: 50%;
 }
 .right-section1 {
-  margin-left: 11rem;
-}
-.dot {    
-  height: 11px;
-  width: 10px;
-  background-color: #bbb;
-  border-radius: 50%;
-  margin-left: 2px;
-  display: inline-block;;
-}
-.reddot {    
-  height: 11px;
-  width: 10px;
-  background-color: red;
-  border-radius: 50%;
-  margin-left: 2px;
-  display: inline-block;;
+  width: 50%;
 }
 .marginleft {
   margin-left: 8rem;
+}
+.header-section1{
+  color: #40454d;
+  font-family: Poppins;
+  font-size: 49px;
+  line-height: 57px;
+  margin: auto;
+}
+.marginside{
+  margin-top: 64px;
 }
 /* Section8 */
 .section8 {

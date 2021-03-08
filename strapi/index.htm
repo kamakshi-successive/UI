@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <script type="text/javascript" src="./index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Strapi homepage</title>
@@ -162,39 +164,37 @@
     <!-- Section4 -->
     <section class="section4">
         <div class="container">
-            <div class="d-flex">
+            <div class="section4combo">
+                <div class="d-flex">
                 <div>
                    <h3 class="header-section">What do we offer</h3>
                     <p class="paragraph-section">We build customizable and flexible solutions.</p>
                 </div>
-                <div class="right-section align-margin">
-                    <button class ="arrow-button">&#60;</button>&nbsp;&nbsp;&nbsp;
-                    <button class ="arrow-button">&#62;</button>
-                </div>
             </div>
-            <br/><br/><br/>
-            <div class="flex-combination">
-                <div class="card-section">
+            <div class="owl-carousel flex-combination  owl-theme slider1" style="position:static">
+                <div class="card-section item">
                     <img class="img-align" src="./img/sec4/content.png">
                     <br/>
                    <div class="short-line"> Static Websites</div>
                 </div>
-                <div class="card-section">
+                <div class="card-section item">
                     <img class="img-align" src="./img/sec4/test_(1).png">
                     <br/>
                    <div class="short-line"> Mobile Application</div>
                 </div>
-                <div class="card-section">
+                <div class="card-section item">
                     <img class="img-align" src="./img/sec4/website.png">
                     <br/>
                    <div class="short-line"> Corporate Websites</div>
                 </div>
-                <div class="card-section">
+                <div class="card-section item">
                     <img class="img-align" src="./img/sec4/website_(1).png">
                     <br/>
                    <div class="short-line"> Editorial</div>
                 </div>
             </div>
+        </div>
+
         </div>
     </section>
     <!-- Section5 -->
@@ -203,19 +203,19 @@
             <h3 class="header-sec">Why Successive?</h3><br/><br/>
             <div class="flex-combination">
                 <div class="card-property d-flex">
-                    <img class="img-align color1" src="./img/sec5/Forma_1_copy_2.png">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img class="img-alig color1" src="./img/sec5/Forma_1_copy_2.png">&nbsp;&nbsp;&nbsp;&nbsp;
                     <span class="text-align">Credible <br/>Professionals</span>
                 </div>
                 <div class="card-property d-flex">
-                    <img class="img-align color2" src="./img/sec5/global-online.png">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img class="img-alig color2" src="./img/sec5/global-online.png">&nbsp;&nbsp;&nbsp;&nbsp;
                     <span class="text-align">Global Support</span>
                 </div>
                 <div class="card-property d-flex">
-                    <img class="img-align color3" src="./img/sec5/on-time.png">&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span class="text-align">On-time Project Delivery</span>
+                    <img class="img-alig color3" src="./img/sec5/on-time.png">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="text-align">On-time<br/> Project Delivery</span>
                 </div>
                 <div class="card-property d-flex">
-                    <img class="img-align color4" src="./img/sec5/solution_(1).png">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img class="img-alig color4" src="./img/sec5/solution_(1).png">&nbsp;&nbsp;&nbsp;&nbsp;
                     <span class="text-align">End-to-End <br/>Solutions</span>
                 </div>
             </div>
@@ -248,7 +248,7 @@
                     <input type="text" id="phone" name="phone" placeholder="Phone*">&nbsp;&nbsp;&nbsp;
                     <input type="text" id="service" name="service" placeholder="Service*">
                 </div><br/>
-                <textarea>Message*</textarea><br/><br/><br/>
+                <textarea placeholder="Message*"></textarea><br/><br/><br/>
                     <button class="red-button">Submit</button>
                 </div>
             </div>
@@ -257,16 +257,15 @@
     <!-- Section7 -->
     <section>
         <div class="container d-flex">
-            <div class="left-card">
-                <div class="iframe">
+            <div class="left-card marginside">
+                    <div class="vedio-section owl-carousel owl-theme slider2">
+                    <iframe class="iframe" active src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
                     <iframe class="iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-                    <div class="marginleft"><span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="reddot"></span></div>
+                    <iframe class="iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
                   </div>
             </div>
             <div class="right-section1">
-                <h3 class="header-section">People accomplishing technology driven results.</h3>
+                <h3 class="header-section1">People accomplishing technology driven results.</h3>
                 <p class="paragraph-section">
                     We help our clients succeed with technology.
                     We solve complex and challengin business problems 
@@ -315,5 +314,46 @@
             <hr class="hori">  
             <p class="align-center">@ Copyright 2020 All Right Reserved</p>               
       </section>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+      <script>
+      $(document).ready(function(){
+      $('.slider1').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          navText: [
+    "<button class ='arrow-button'>&#60;</button>",
+    "<button class ='arrow-button'>&#62;</button>"
+  ],
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:2
+              },
+              1000:{
+                  items:4
+              }
+          }
+      });
+    });
+      
+      </script>
+           <script>$('.slider2').owlCarousel({
+            loop:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })</script>
 </body>
 </html>
