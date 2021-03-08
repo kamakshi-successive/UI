@@ -1,1 +1,1 @@
-UI
+Strapi homepage
