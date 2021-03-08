@@ -361,13 +361,18 @@ body {
   }
   .left-section{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     width: 50%;
   } 
   
   .right-section{
     display: flex;
     justify-content: flex-end;
+    width: 50%;
+  }
+
+  .right-section2{
+    display: flex;
     width: 50%;
   }
   .heading{
